@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	Makefile	/^BIN=markandsweep$/;"	m
+OBJ_INT	main.c	/^        OBJ_INT,$/;"	e	enum:__anon1	file:
+OBJ_PAIR	main.c	/^        OBJ_PAIR$/;"	e	enum:__anon1	file:
+Object	main.c	/^} Object;$/;"	t	typeref:struct:sObject	file:
+ObjectType	main.c	/^} ObjectType;$/;"	t	typeref:enum:__anon1	file:
+STACK_MAX	main.c	4;"	d	file:
+VM	main.c	/^} VM;$/;"	t	typeref:struct:__anon4	file:
+assert	main.c	/^void assert(int condition, const char* message) {$/;"	f
+firstObject	main.c	/^        Object* firstObject;$/;"	m	struct:__anon4	file:
+freeVM	main.c	/^void freeVM(VM *vm) {$/;"	f
+gc	main.c	/^void gc(VM* vm) {$/;"	f
+head	main.c	/^                        struct sObject* head;$/;"	m	struct:sObject::__anon2::__anon3	typeref:struct:sObject::__anon2::__anon3::sObject	file:
+main	main.c	/^int main(int argc, const char * argv[]) {$/;"	f
+mark	main.c	/^void mark(Object* object) {$/;"	f
+markAll	main.c	/^void markAll(VM* vm)$/;"	f
+marked	main.c	/^        unsigned char marked;$/;"	m	struct:sObject	file:
+maxObjects	main.c	/^        int maxObjects;$/;"	m	struct:__anon4	file:
+newObject	main.c	/^Object* newObject(VM* vm, ObjectType type) {$/;"	f
+newVM	main.c	/^VM* newVM() {$/;"	f
+next	main.c	/^        struct sObject* next;$/;"	m	struct:sObject	typeref:struct:sObject::sObject	file:
+numObjects	main.c	/^        int numObjects;$/;"	m	struct:__anon4	file:
+objectPrint	main.c	/^void objectPrint(Object* object) {$/;"	f
+perfTest	main.c	/^void perfTest() {$/;"	f
+pop	main.c	/^Object* pop(VM* vm) {$/;"	f
+printObject	main.c	/^void printObject(Object* obj)$/;"	f
+push	main.c	/^void push(VM* vm, Object* value) {$/;"	f
+pushInt	main.c	/^void pushInt(VM* vm, int intValue) {$/;"	f
+pushPair	main.c	/^Object* pushPair(VM* vm) {$/;"	f
+sObject	main.c	/^typedef struct sObject {$/;"	s	file:
+stack	main.c	/^        Object* stack[STACK_MAX];$/;"	m	struct:__anon4	file:
+stackSize	main.c	/^        int stackSize;$/;"	m	struct:__anon4	file:
+sweep	main.c	/^void sweep(VM* vm)$/;"	f
+tail	main.c	/^                        struct sObject* tail;$/;"	m	struct:sObject::__anon2::__anon3	typeref:struct:sObject::__anon2::__anon3::sObject	file:
+test1	main.c	/^void test1() {$/;"	f
+test2	main.c	/^void test2() {$/;"	f
+test3	main.c	/^void test3() {$/;"	f
+test4	main.c	/^void test4() {$/;"	f
+type	main.c	/^        ObjectType type;$/;"	m	struct:sObject	file:
+value	main.c	/^                int value;$/;"	m	union:sObject::__anon2	file:
